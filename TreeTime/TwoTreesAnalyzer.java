@@ -15,9 +15,6 @@ import java.util.function.Function;
  *
  * @author Hayley Ma
  * @since 10-16-2017
- * Course: CS3102
- * Programming Project #:2
- * Instructor: Dr. Duncan
  * @SEE AVLTree, AVLTreeException, BSTree, BSTreeException,
  */
 public class TwoTreesAnalyzer {
