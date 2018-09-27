@@ -1,22 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+ * Models an AVL tree.
+ * @param <E> data type of elements of the tree
+ * @see AVLTreeAPI, AVLTreeException
+*/
 package TreeTime;
 
 import java.util.ArrayList;
 import java.util.function.Function;
 
-/**
- * Models an AVL tree.
- * @param <E> data type of elements of the tree
- * @author William Duncan, Hayley Ma
- * @since 10-16-2017
- * Course: CS3102
- * Programming Project #: 2
- * @see AVLTreeAPI, AVLTreeException
-*/
+
 
 //public class AVLTree<E extends Comparable> implements AvltreeAPI<E>
 public class AVLTree<E extends Comparable<E>> implements AVLTreeAPI<E>
