@@ -7,13 +7,8 @@ import java.util.function.Function;
 /**
  * A binary search tree <br>
  * Requires JDK 1.8 for Function
- *
- *
- * @author Duncan, Hayley Ma
  * @param <E> the tree data type
  * @since 10-16-2017
- * Course: CS3102
- * Programming Project #: 2
  * @see BSTreeAPI, BSTreeException 
  */
 public class BSTree<E extends Comparable<E>> implements BSTreeAPI<E> {
